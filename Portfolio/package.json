@@ -1,0 +1,32 @@
+{
+  "name": "shoppage",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "file-loader": "^6.2.0",
+    "maska": "^2.1.11",
+    "sass": "^1.69.7",
+    "v-mask": "^2.3.0",
+    "vue": "^3.3.11",
+    "vue-inputmask": "^0.2.1",
+    "vue-router": "^4.2.5",
+    "vue-star-rating": "^1.7.0",
+    "vue-the-mask": "^0.11.1",
+    "vueperslides": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "eslint": "^8.49.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^13.3.3",
+    "vite": "^5.0.10"
+  }
+}
